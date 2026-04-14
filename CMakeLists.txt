@@ -20,6 +20,6 @@ foreach(main_file IN LISTS chapter_main_files)
             Tapluyen2Chuong2/Chapter2/ExFour/src/main.cpp
             Tapluyen2Chuong2/Chapter2/ExFive/src/main.cpp
             Tapluyen2Chuong2/Chapter2/ExSix/src/main.cpp
-            Tapluyen2Chuong2/Chapter2/ExSeven/main.cpp
+            Tapluyen2Chuong2/Chapter2/ExSeven/src/main.cpp
             Tapluyen2Chuong2/Chapter2/ExOne/src/main.cpp)
 endforeach()
