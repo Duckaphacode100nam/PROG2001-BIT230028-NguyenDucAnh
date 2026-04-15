@@ -2,11 +2,9 @@
 
 int main() {
     int a, b;
-    printf("Nhap a va b: ");
+    printf("nhap so nguyen a va b:");
     scanf("%d %d", &a, &b);
 
-    printf("Dich trai: %d\n", a << b);
-    printf("Dich phai: %d\n", a >> b);
-
-    return 0;
+    printf("dich trai %d\n ", a << b);
+    printf("dich phai %d\n ", a >> b);
 }
