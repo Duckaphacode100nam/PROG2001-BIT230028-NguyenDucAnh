@@ -5,7 +5,7 @@ void incrementStatic() {
     counter++;
     printf("Static counter = %d\n", counter);
 }
-
+//
 void incrementNormal() {
     int counter = 0;
     counter++;
