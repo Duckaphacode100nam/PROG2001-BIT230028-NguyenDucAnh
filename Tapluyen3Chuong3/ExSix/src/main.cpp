@@ -2,10 +2,8 @@
 
 int main() {
     int a = 5, b = 10, c = 15;
-
-    if (a > 0 && b > 0 && c > 0) {
-        printf("Ca 3 so deu duong\n");
+    if ( a > 0 && b > 0 && c > 0 ) {
+        printf("ca 3 so deu la so nguyen\n");
     }
 
-    return 0;
 }
