@@ -21,5 +21,9 @@ foreach(main_file IN LISTS chapter_main_files)
             TapLuyen4Chuong3/ExFour/src/main.cpp
             TapLuyen4Chuong3/ExFive/src/main.cpp
             TapLuyen4Chuong3/ExSix/src/main.cpp
-            TapLuyen4Chuong3/ExSeven/src/main.cpp)
+            TapLuyen4Chuong3/ExSeven/src/main.cpp
+            LuyenTap5Chuong4/ExOne/src/Main.cpp
+            LuyenTap5Chuong4/ExTwo/src/main.cpp
+            LuyenTap5Chuong4/ExThree/src/main.cpp
+            LuyenTap5Chuong4/ExFour/src/main.cpp)
 endforeach()
