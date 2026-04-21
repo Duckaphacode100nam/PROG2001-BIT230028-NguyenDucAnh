@@ -24,5 +24,8 @@ foreach(main_file IN LISTS all_main_files)
             Tapluyen7Chuong5/ExSeven/src/src/main.cpp
             Tapluyen7Chuong5/ExEight/src/main.cpp
             Tapluyen7Chuong5/ExNine/src/main.cpp
-            Tapluyen7Chuong5/ExTen/src/main.cpp)
+            Tapluyen7Chuong5/ExTen/src/main.cpp
+            LuyenTap8Chuong5/ExOne/src/main.cpp
+            LuyenTap8Chuong5/ExTwo/src/main.cpp
+            LuyenTap8Chuong5/ExThree/src/main.cpp)
 endforeach()
