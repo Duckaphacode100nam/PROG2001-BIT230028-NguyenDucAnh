@@ -17,15 +17,5 @@ foreach(main_file IN LISTS all_main_files)
     get_filename_component(group_name "${group_dir}" NAME)
 
     set(target_name "${group_name}_${exercise_name}")
-    add_executable(${target_name} "${main_file}"
-            Tapluyen7Chuong5/ExFour/src/main.cpp
-            Tapluyen7Chuong5/ExFive/src/main.cpp
-            Tapluyen7Chuong5/ExSix/src/main.cpp
-            Tapluyen7Chuong5/ExSeven/src/src/main.cpp
-            Tapluyen7Chuong5/ExEight/src/main.cpp
-            Tapluyen7Chuong5/ExNine/src/main.cpp
-            Tapluyen7Chuong5/ExTen/src/main.cpp
-            LuyenTap8Chuong5/ExOne/src/main.cpp
-            LuyenTap8Chuong5/ExTwo/src/main.cpp
-            LuyenTap8Chuong5/ExThree/src/main.cpp)
+    add_executable(${target_name} "${main_file}")
 endforeach()
