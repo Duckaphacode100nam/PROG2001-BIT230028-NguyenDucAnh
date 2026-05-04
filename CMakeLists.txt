@@ -28,6 +28,13 @@ foreach(main_file IN LISTS all_main_files)
 
     set(target_name "${group_name}_${exercise_name}")
     if(NOT TARGET ${target_name})
-        add_executable(${target_name} "${main_file}")
+        add_executable(${target_name} "${main_file}"
+                LuyenTap11/ExOne/src/main.cpp
+                LuyenTap11/ExTwo/src/main.cpp
+                LuyenTap11/ExThree/src/main.cpp
+                LuyenTap11/ExFour/src/main.cpp
+                LuyenTap11/ExFive/src/main.cpp
+                LuyenTap11/ExSix/src/main.cpp
+                LuyenTap11/ExSeven/src/main.cpp)
     endif()
 endforeach()
